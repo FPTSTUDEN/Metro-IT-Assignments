@@ -1,0 +1,16 @@
+Personal assignment. Please see the attached documents for instructions.
+
+Data files can be found from Documents > 3. Health Technology > data.
+
+If you use Jupyter Notebook (ipynb-files) to solve the assignment, use the attached Notebook template (HT_A2_famiilyname.ipynb) as a starting point.
+When you are ready, remember to:
+
+Restart Kernel and Run All Cells to test your Notebook
+Save changes
+Return in .ipynb-format (Notebook)
+If you use normal Python code (py-files), then
+
+Run all your codes
+Collect all the results (graphs and prints)
+Write a report using Word (or similar document editor)
+Return the Word document (docx) or PDF-file
