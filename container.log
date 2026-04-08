@@ -1,0 +1,198 @@
+[2026-04-08T13:56:08.290Z] Dev Containers 0.447.0 in VS Code 1.114.0 (e7fb5e96c0730b9deb70b33781f98e2f35975036).
+[2026-04-08T13:56:08.290Z] Start: Resolving Remote
+[2026-04-08T13:56:08.322Z] Setting up container for folder or workspace: c:\Users\admin\Documents\webdev\it-assignments
+[2026-04-08T13:56:08.322Z] Context: desktop-linux
+[2026-04-08T13:56:08.326Z] Start: Run: wsl -l -v
+[2026-04-08T13:56:08.674Z] Stop (348 ms): Run: wsl -l -v
+[2026-04-08T13:56:08.677Z] Start: Run: wsl -d Ubuntu-24.04 -e /bin/sh -c echo ~
+[2026-04-08T13:56:15.788Z] Stop (7111 ms): Run: wsl -d Ubuntu-24.04 -e /bin/sh -c echo ~
+[2026-04-08T13:56:15.791Z] Start: Run: wsl -d Ubuntu-24.04 -e /bin/sh -c cd '/home/mrdinh' && /bin/sh
+[2026-04-08T13:56:15.817Z] Start: Run in host: id -un
+[2026-04-08T13:56:15.974Z] mrdinh
+[2026-04-08T13:56:15.974Z] 
+[2026-04-08T13:56:15.974Z] Stop (157 ms): Run in host: id -un
+[2026-04-08T13:56:15.975Z] Start: Run in host:  (command -v getent >/dev/null 2>&1 && getent passwd 'mrdinh' || grep -E '^mrdinh|^[^:]*:[^:]*:mrdinh:' /etc/passwd || true)
+[2026-04-08T13:56:15.982Z] Stop (7 ms): Run in host:  (command -v getent >/dev/null 2>&1 && getent passwd 'mrdinh' || grep -E '^mrdinh|^[^:]*:[^:]*:mrdinh:' /etc/passwd || true)
+[2026-04-08T13:56:15.983Z] Start: Run in host: echo ~
+[2026-04-08T13:56:15.986Z] /home/mrdinh
+[2026-04-08T13:56:15.986Z] 
+[2026-04-08T13:56:15.987Z] Stop (4 ms): Run in host: echo ~
+[2026-04-08T13:56:15.988Z] Start: Run in host: test -f '/home/mrdinh/.vscode-server/cli/servers/Stable-e7fb5e96c0730b9deb70b33781f98e2f35975036/server/node'
+[2026-04-08T13:56:15.990Z] 
+[2026-04-08T13:56:15.991Z] 
+[2026-04-08T13:56:15.991Z] Exit code 1
+[2026-04-08T13:56:15.991Z] Stop (3 ms): Run in host: test -f '/home/mrdinh/.vscode-server/cli/servers/Stable-e7fb5e96c0730b9deb70b33781f98e2f35975036/server/node'
+[2026-04-08T13:56:15.992Z] Start: Run in host: test -f '/home/mrdinh/.vscode/cli/servers/Stable-e7fb5e96c0730b9deb70b33781f98e2f35975036/server/node'
+[2026-04-08T13:56:15.994Z] 
+[2026-04-08T13:56:15.995Z] 
+[2026-04-08T13:56:15.995Z] Exit code 1
+[2026-04-08T13:56:15.995Z] Stop (3 ms): Run in host: test -f '/home/mrdinh/.vscode/cli/servers/Stable-e7fb5e96c0730b9deb70b33781f98e2f35975036/server/node'
+[2026-04-08T13:56:15.995Z] Start: Run in host: test -f '/home/mrdinh/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'
+[2026-04-08T13:56:15.999Z] 
+[2026-04-08T13:56:16.000Z] 
+[2026-04-08T13:56:16.000Z] Exit code 1
+[2026-04-08T13:56:16.000Z] Stop (5 ms): Run in host: test -f '/home/mrdinh/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'
+[2026-04-08T13:56:16.000Z] Start: Run in host: test -f '/home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'
+[2026-04-08T13:56:16.004Z] 
+[2026-04-08T13:56:16.004Z] 
+[2026-04-08T13:56:16.004Z] Exit code 1
+[2026-04-08T13:56:16.004Z] Stop (4 ms): Run in host: test -f '/home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'
+[2026-04-08T13:56:16.004Z] Start: Run in host: uname -s
+[2026-04-08T13:56:16.008Z] Linux
+[2026-04-08T13:56:16.008Z] 
+[2026-04-08T13:56:16.008Z] Stop (4 ms): Run in host: uname -s
+[2026-04-08T13:56:16.009Z] Start: Run in host: uname -m
+[2026-04-08T13:56:16.012Z] x86_64
+[2026-04-08T13:56:16.013Z] 
+[2026-04-08T13:56:16.013Z] Stop (4 ms): Run in host: uname -m
+[2026-04-08T13:56:16.013Z] Start: Run in host: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2026-04-08T13:56:16.018Z] PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+[2026-04-08T13:56:16.019Z] 
+[2026-04-08T13:56:16.019Z] Stop (6 ms): Run in host: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2026-04-08T13:56:16.020Z] Start: Downloading VS Code Server
+[2026-04-08T13:56:16.020Z] e7fb5e96c0730b9deb70b33781f98e2f35975036 linux-x64 stable
+[2026-04-08T13:56:16.022Z] URL: https://update.code.visualstudio.com/commit:e7fb5e96c0730b9deb70b33781f98e2f35975036/server-linux-x64/stable
+[2026-04-08T13:56:16.022Z] Path: C:\Users\admin\AppData\Local\Temp\vsch\serverCache\e7fb5e96c0730b9deb70b33781f98e2f35975036\vscode-server-linux-x64.tar.gz
+[2026-04-08T13:56:40.528Z] Stop (24508 ms): Downloading VS Code Server
+[2026-04-08T13:56:42.071Z] Start: Installing VS Code Server
+[2026-04-08T13:56:42.072Z] Start: Run in host: mkdir -p /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072
+[2026-04-08T13:56:42.079Z] 
+[2026-04-08T13:56:42.080Z] 
+[2026-04-08T13:56:42.080Z] Stop (8 ms): Run in host: mkdir -p /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072
+[2026-04-08T13:56:42.080Z] Start: Run in host: (dd iflag=fullblock bs=8192 count=15241; dd iflag=fullblock bs=0 count=1) | tar --no-same-owner -x -C /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072
+[2026-04-08T13:56:42.827Z] 15241+0 records in
+15241+0 records out
+124854272 bytes (125 MB, 119 MiB) copied, 0.739449 s, 169 MB/s
+[2026-04-08T13:56:42.829Z] dd: invalid number: '0'
+[2026-04-08T13:56:42.831Z] 
+[2026-04-08T13:56:42.831Z] 
+[2026-04-08T13:56:42.831Z] Stop (751 ms): Run in host: (dd iflag=fullblock bs=8192 count=15241; dd iflag=fullblock bs=0 count=1) | tar --no-same-owner -x -C /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072
+[2026-04-08T13:56:42.831Z] Start: Run in host: mv -n /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072/* /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036 && rmdir /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072
+[2026-04-08T13:56:42.841Z] 
+[2026-04-08T13:56:42.841Z] 
+[2026-04-08T13:56:42.841Z] Stop (10 ms): Run in host: mv -n /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072/* /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036 && rmdir /home/mrdinh/.vscode-remote-containers/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036_1775656602072
+[2026-04-08T13:56:42.841Z] Stop (770 ms): Installing VS Code Server
+[2026-04-08T13:56:42.842Z] Start: Run in host: test -f '/home/mrdinh/.vscode-remote-containers/dist/vscode-remote-containers-server-0.447.0.js'
+[2026-04-08T13:56:42.844Z] 
+[2026-04-08T13:56:42.844Z] 
+[2026-04-08T13:56:42.845Z] Exit code 1
+[2026-04-08T13:56:42.845Z] Stop (3 ms): Run in host: test -f '/home/mrdinh/.vscode-remote-containers/dist/vscode-remote-containers-server-0.447.0.js'
+[2026-04-08T13:56:42.845Z] Start: Run in host: mkdir -p '/home/mrdinh/.vscode-remote-containers/dist'
+[2026-04-08T13:56:42.850Z] 
+[2026-04-08T13:56:42.850Z] 
+[2026-04-08T13:56:42.851Z] Stop (6 ms): Run in host: mkdir -p '/home/mrdinh/.vscode-remote-containers/dist'
+[2026-04-08T13:56:42.851Z] Start: Run in host: cat <<'EOF-/home/mrdinh/.vscode-remote-containers/dist/vscode-remote-containers-server-0.447.0.js' >/home/mrdinh/.vscode-remote-containers/dist/vscode-remote-containers-server-0.447.0.js_1775656602851
+[2026-04-08T13:56:42.860Z] 
+[2026-04-08T13:56:42.861Z] 
+[2026-04-08T13:56:42.861Z] Stop (10 ms): Run in host: cat <<'EOF-/home/mrdinh/.vscode-remote-containers/dist/vscode-remote-containers-server-0.447.0.js' >/home/mrdinh/.vscode-remote-containers/dist/vscode-remote-containers-server-0.447.0.js_1775656602851
+[2026-04-08T13:56:42.865Z] userEnvProbe: loginInteractiveShell (default)
+[2026-04-08T13:56:42.865Z] userEnvProbe: not found in cache
+[2026-04-08T13:56:42.866Z] userEnvProbe shell: /bin/bash
+[2026-04-08T13:56:43.039Z] userEnvProbe PATHs:
+Probe:     '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.4.0/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/admin/.local/bin:/mnt/c/Users/admin/scoop/shims:/mnt/c/Users/admin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/admin/AppData/Roaming/npm:/mnt/c/Program Files/MariaDB 11.8/bin:/mnt/c/Users/admin/AppData/Local/Python/bin:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python313/bin:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Program Files/JetBrains/WebStorm 2025.2.4/bin:/mnt/c/Users/admin/AppData/Local/Microsoft/WinGet/Links:/mnt/c/Users/admin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0.1-full_build/bin:/mnt/c/Program Files/qemu:/mnt/c/Users/admin/AppData/Local/Programs/Python/Python313:/mnt/c/Users/admin/AppData/Local/Programs/Ollama:/mnt/c/Users/admin/AppData/Local/Python/pythoncore-3.14-64/Scripts:/mnt/c/Program Files/terraform:/mnt/c/Program Files/Multipass/bin:/mnt/c/Users/admin/.local/bin:/mnt/c/pathfix:/snap/bin'
+Container: None
+[2026-04-08T13:56:43.056Z] Start: Run in Host: wslpath -w /run/user/1000/wayland-0
+[2026-04-08T13:56:43.065Z] Stop (9 ms): Run in Host: wslpath -w /run/user/1000/wayland-0
+[2026-04-08T13:56:43.066Z] Start: Check Docker is running
+[2026-04-08T13:56:43.067Z] Start: Run: docker version
+[2026-04-08T13:56:43.209Z] Client:
+ Version:           29.1.2
+ API version:       1.52
+ Go version:        go1.25.5
+ Git commit:        890dcca
+ Built:             Tue Dec  2 21:57:33 2025
+ OS/Arch:
+[2026-04-08T13:56:43.210Z]            windows/amd64
+ Context:           desktop-linux
+
+Server: Docker Desktop 4.54.0 (212467)
+ Engine:
+  Version:          29.1.2
+  API version:      1.52 (minimum version 1.44)
+  Go version:       go1.25.5
+  Git commit:       de45c2a
+  Built:            Tue Dec  2 21:55:26 2025
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.2.0
+  GitCommit:        1c4457e00facac03ce1d75f7b6777a7a851e5c41
+ runc:
+  Version:          1.3.4
+  GitCommit:        v1.3.4-0-gd6d73eb8
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+[2026-04-08T13:56:43.222Z] Stop (155 ms): Run: docker version
+[2026-04-08T13:56:43.222Z] Stop (156 ms): Check Docker is running
+[2026-04-08T13:56:43.224Z] Start: Run: docker volume ls -q
+[2026-04-08T13:56:43.389Z] Stop (165 ms): Run: docker volume ls -q
+[2026-04-08T13:56:43.390Z] Start: Run: docker volume create vscode
+[2026-04-08T13:56:43.546Z] Stop (156 ms): Run: docker volume create vscode
+[2026-04-08T13:56:43.547Z] Start: Run: docker ps -q -a --filter label=vsch.local.folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=vsch.quality=stable
+[2026-04-08T13:56:43.679Z] Stop (132 ms): Run: docker ps -q -a --filter label=vsch.local.folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=vsch.quality=stable
+[2026-04-08T13:56:43.680Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json
+[2026-04-08T13:56:43.813Z] Stop (133 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json
+[2026-04-08T13:56:43.814Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments
+[2026-04-08T13:56:43.946Z] Stop (132 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments
+[2026-04-08T13:56:43.947Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments
+[2026-04-08T13:56:44.081Z] Stop (134 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments
+[2026-04-08T13:56:44.082Z] Running Dev Containers CLI:   up --user-data-folder c:\Users\admin\AppData\Roaming\Code\User\globalStorage\ms-vscode-remote.remote-containers\data --container-session-data-folder /tmp/devcontainers-2b257776-193b-4119-bdb9-0b4a479cef5e1775656565479 --workspace-folder c:\Users\admin\Documents\webdev\it-assignments --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --id-label devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --log-level debug --log-format json --config c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --mount type=bind,source=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,target=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --terminal-columns 47 --terminal-rows 12 --include-configuration --include-merged-configuration
+[2026-04-08T13:56:44.097Z] ProxyResolver#loadSystemCertificates count (11ms)
+[2026-04-08T13:56:44.101Z] ProxyResolver#filterExpiredCertificates count filtered
+[2026-04-08T13:56:44.103Z] Start: Run: C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\Code.exe c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js up --user-data-folder c:\Users\admin\AppData\Roaming\Code\User\globalStorage\ms-vscode-remote.remote-containers\data --container-session-data-folder /tmp/devcontainers-2b257776-193b-4119-bdb9-0b4a479cef5e1775656565479 --workspace-folder c:\Users\admin\Documents\webdev\it-assignments --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --id-label devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --log-level debug --log-format json --config c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --mount type=bind,source=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,target=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --terminal-columns 47 --terminal-rows 12 --include-configuration --include-merged-configuration
+[2026-04-08T13:56:44.398Z] @devcontainers/cli 0.83.3. Node.js v22.22.1. win32 10.0.26100 x64.
+[2026-04-08T13:56:44.398Z] Start: Run: docker buildx version
+[2026-04-08T13:56:45.231Z] Stop (833 ms): Run: docker buildx version
+[2026-04-08T13:56:45.232Z] github.com/docker/buildx v0.30.1-desktop.1 792b8327a475a5d8c9d5f4ea6ce866e7da39ae8b
+[2026-04-08T13:56:45.232Z] 
+[2026-04-08T13:56:45.232Z] Start: Run: docker version --format {{.Server.Version}}
+[2026-04-08T13:56:45.398Z] Stop (166 ms): Run: docker version --format {{.Server.Version}}
+[2026-04-08T13:56:45.398Z] 29.1.2
+[2026-04-08T13:56:45.398Z] 
+[2026-04-08T13:56:45.399Z] Start: Run: docker -v
+[2026-04-08T13:56:45.512Z] Stop (113 ms): Run: docker -v
+[2026-04-08T13:56:45.513Z] Start: Resolving Remote
+[2026-04-08T13:56:45.519Z] Loading 46 extra certificates from C:\Users\admin\AppData\Local\Temp\vsch\certificates-db5c9f14a40748083f27878441517fc4041783f1e83bf2f0a533c42648e61242.pem.
+[2026-04-08T13:56:45.837Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json
+[2026-04-08T13:56:45.956Z] Stop (119 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json
+[2026-04-08T13:56:45.957Z] Start: Run: docker inspect --type image mcr.microsoft.com/devcontainers/python:3.11
+[2026-04-08T13:56:46.189Z] Stop (232 ms): Run: docker inspect --type image mcr.microsoft.com/devcontainers/python:3.11
+[2026-04-08T13:56:46.193Z] Start: Run: docker events --format {{json .}} --filter event=start
+[2026-04-08T13:56:46.212Z] Start: Starting container
+[2026-04-08T13:56:46.213Z] Start: Run: docker run --sig-proxy=false -a STDOUT -a STDERR --mount source=c:\Users\admin\Documents\webdev\it-assignments,target=/workspace,type=bind,consistency=cached --mount source=c:\Users\admin\Documents\webdev\it-assignments,target=/workspace,type=bind,consistency=cached --mount type=volume,src=vscode,dst=/vscode --mount type=bind,src=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,dst=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock -l devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments -l devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --entrypoint /bin/sh -l devcontainer.metadata=[{"id":"ghcr.io/devcontainers/features/common-utils:2"},{"id":"ghcr.io/devcontainers/features/git:1","customizations":{"vscode":{"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`."}]}}}},{"id":"ghcr.io/devcontainers/features/node:1","customizations":{"vscode":{"extensions":["dbaeumer.vscode-eslint"],"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes `node`, `npm` and `eslint` pre-installed and available on the `PATH` for Node.js and JavaScript development."}]}}}},{"id":"ghcr.io/devcontainers/features/python:1","customizations":{"vscode":{"extensions":["ms-python.python","ms-python.vscode-pylance","ms-python.autopep8"],"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes `python3` and `pip3` pre-installed and available on the `PATH`, along with the Python language extensions for Python development."}],"python.defaultInterpreterPath":"/usr/local/python/current/bin/python","[python]":{"editor.defaultFormatter":"ms-python.autopep8"}}}}},{"customizations":{"vscode":{"settings":{"python.defaultInterpreterPath":"/usr/local/bin/python"}}},"remoteUser":"vscode"},{"postCreateCommand":"pip install mpremote","customizations":{"vscode":{"extensions":["ms-python.python","ms-python.vscode-pylance","visualstudioexptteam.vscodeintellicode"],"settings":{"python.defaultInterpreterPath":"/usr/local/bin/python","python.analysis.autoSearchPaths":true,"python.analysis.extraPaths":["/workspace"]}}},"mounts":["source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"],"remoteUser":"vscode","updateRemoteUserUID":true}] mcr.microsoft.com/devcontainers/python:3.11 -c echo Container started
+[2026-04-08T13:56:46.381Z] 
+[2026-04-08T13:56:46.483Z] docker: Error response from daemon: accessing specified distro mount service: stat /run/guest-services/distro-services/ubuntu-24-04.sock: no such file or directoryRun 'docker run --help' for more information
+]0;C:\Program Files\Docker\Docker\resources\bin\docker.exe
+[2026-04-08T13:56:47.504Z] Stop (1291 ms): Run: docker run --sig-proxy=false -a STDOUT -a STDERR --mount source=c:\Users\admin\Documents\webdev\it-assignments,target=/workspace,type=bind,consistency=cached --mount source=c:\Users\admin\Documents\webdev\it-assignments,target=/workspace,type=bind,consistency=cached --mount type=volume,src=vscode,dst=/vscode --mount type=bind,src=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,dst=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock -l devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments -l devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --entrypoint /bin/sh -l devcontainer.metadata=[{"id":"ghcr.io/devcontainers/features/common-utils:2"},{"id":"ghcr.io/devcontainers/features/git:1","customizations":{"vscode":{"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`."}]}}}},{"id":"ghcr.io/devcontainers/features/node:1","customizations":{"vscode":{"extensions":["dbaeumer.vscode-eslint"],"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes `node`, `npm` and `eslint` pre-installed and available on the `PATH` for Node.js and JavaScript development."}]}}}},{"id":"ghcr.io/devcontainers/features/python:1","customizations":{"vscode":{"extensions":["ms-python.python","ms-python.vscode-pylance","ms-python.autopep8"],"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes `python3` and `pip3` pre-installed and available on the `PATH`, along with the Python language extensions for Python development."}],"python.defaultInterpreterPath":"/usr/local/python/current/bin/python","[python]":{"editor.defaultFormatter":"ms-python.autopep8"}}}}},{"customizations":{"vscode":{"settings":{"python.defaultInterpreterPath":"/usr/local/bin/python"}}},"remoteUser":"vscode"},{"postCreateCommand":"pip install mpremote","customizations":{"vscode":{"extensions":["ms-python.python","ms-python.vscode-pylance","visualstudioexptteam.vscodeintellicode"],"settings":{"python.defaultInterpreterPath":"/usr/local/bin/python","python.analysis.autoSearchPaths":true,"python.analysis.extraPaths":["/workspace"]}}},"mounts":["source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"],"remoteUser":"vscode","updateRemoteUserUID":true}] mcr.microsoft.com/devcontainers/python:3.11 -c echo Container started
+[2026-04-08T13:56:47.523Z] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json
+[2026-04-08T13:56:47.532Z] Stop (1339 ms): Run: docker events --format {{json .}} --filter event=start
+[2026-04-08T13:56:47.654Z] Stop (131 ms): Run: docker ps -q -a --filter label=devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --filter label=devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json
+[2026-04-08T13:56:47.661Z] Error: Command failed: docker run --sig-proxy=false -a STDOUT -a STDERR --mount source=c:\Users\admin\Documents\webdev\it-assignments,target=/workspace,type=bind,consistency=cached --mount source=c:\Users\admin\Documents\webdev\it-assignments,target=/workspace,type=bind,consistency=cached --mount type=volume,src=vscode,dst=/vscode --mount type=bind,src=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,dst=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock -l devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments -l devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --entrypoint /bin/sh -l devcontainer.metadata=[{"id":"ghcr.io/devcontainers/features/common-utils:2"},{"id":"ghcr.io/devcontainers/features/git:1","customizations":{"vscode":{"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes an up-to-date version of Git, built from source as needed, pre-installed and available on the `PATH`."}]}}}},{"id":"ghcr.io/devcontainers/features/node:1","customizations":{"vscode":{"extensions":["dbaeumer.vscode-eslint"],"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes `node`, `npm` and `eslint` pre-installed and available on the `PATH` for Node.js and JavaScript development."}]}}}},{"id":"ghcr.io/devcontainers/features/python:1","customizations":{"vscode":{"extensions":["ms-python.python","ms-python.vscode-pylance","ms-python.autopep8"],"settings":{"github.copilot.chat.codeGeneration.instructions":[{"text":"This dev container includes `python3` and `pip3` pre-installed and available on the `PATH`, along with the Python language extensions for Python development."}],"python.defaultInterpreterPath":"/usr/local/python/current/bin/python","[python]":{"editor.defaultFormatter":"ms-python.autopep8"}}}}},{"customizations":{"vscode":{"settings":{"python.defaultInterpreterPath":"/usr/local/bin/python"}}},"remoteUser":"vscode"},{"postCreateCommand":"pip install mpremote","customizations":{"vscode":{"extensions":["ms-python.python","ms-python.vscode-pylance","visualstudioexptteam.vscodeintellicode"],"settings":{"python.defaultInterpreterPath":"/usr/local/bin/python","python.analysis.autoSearchPaths":true,"python.analysis.extraPaths":["/workspace"]}}},"mounts":["source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"],"remoteUser":"vscode","updateRemoteUserUID":true}] mcr.microsoft.com/devcontainers/python:3.11 -c echo Container started
+[2026-04-08T13:56:47.661Z] trap "exit 0" 15
+[2026-04-08T13:56:47.661Z] exec "$@"
+[2026-04-08T13:56:47.661Z] while sleep 1 & wait $!; do :; done -
+[2026-04-08T13:56:47.661Z]     at U9 (c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:467:1277)
+[2026-04-08T13:56:47.661Z]     at RL (c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:467:1021)
+[2026-04-08T13:56:47.662Z]     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-04-08T13:56:47.662Z]     at async AZ (c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:485:3870)
+[2026-04-08T13:56:47.662Z]     at async uC (c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:485:4989)
+[2026-04-08T13:56:47.662Z]     at async L5 (c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:666:205)
+[2026-04-08T13:56:47.662Z]     at async G5 (c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:665:15084)
+[2026-04-08T13:56:47.662Z]     at async c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js:485:1188
+[2026-04-08T13:56:47.680Z] Stop (3577 ms): Run: C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\Code.exe c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js up --user-data-folder c:\Users\admin\AppData\Roaming\Code\User\globalStorage\ms-vscode-remote.remote-containers\data --container-session-data-folder /tmp/devcontainers-2b257776-193b-4119-bdb9-0b4a479cef5e1775656565479 --workspace-folder c:\Users\admin\Documents\webdev\it-assignments --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --id-label devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --log-level debug --log-format json --config c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --mount type=bind,source=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,target=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --terminal-columns 47 --terminal-rows 12 --include-configuration --include-merged-configuration
+[2026-04-08T13:56:47.681Z] Exit code 1
+[2026-04-08T13:56:47.687Z] Command failed: C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\Code.exe c:\Users\admin\.vscode\extensions\ms-vscode-remote.remote-containers-0.447.0\dist\spec-node\devContainersSpecCLI.js up --user-data-folder c:\Users\admin\AppData\Roaming\Code\User\globalStorage\ms-vscode-remote.remote-containers\data --container-session-data-folder /tmp/devcontainers-2b257776-193b-4119-bdb9-0b4a479cef5e1775656565479 --workspace-folder c:\Users\admin\Documents\webdev\it-assignments --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=c:\Users\admin\Documents\webdev\it-assignments --id-label devcontainer.config_file=c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --log-level debug --log-format json --config c:\Users\admin\Documents\webdev\it-assignments\.devcontainer\devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --mount type=bind,source=\\wsl.localhost\Ubuntu-24.04\mnt\wslg\runtime-dir\wayland-0,target=/tmp/vscode-wayland-a2e5c0b6-4a4c-4f28-b3f5-3882be8e5ac6.sock --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --terminal-columns 47 --terminal-rows 12 --include-configuration --include-merged-configuration
+[2026-04-08T13:56:47.687Z] Exit code 1
