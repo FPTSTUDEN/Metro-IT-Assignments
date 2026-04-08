@@ -320,10 +320,28 @@ if __name__ == "__main__":
     # Wait a moment
     utime.sleep(1)
     
-    # Run main loop
-    hw.run_info_loop()
-
-# hw = HardwareSimulator()
-# while True:
-#     if hw.buttons.is_pressed(1):
+    # Initialize UFO position
+    ufo_position = 0
+    
+    def update_ufo():
+        global ufo_position
+        if hw.buttons.is_pressed(0):
+            ufo_position -= 1
+        elif hw.buttons.is_pressed(2):
+            ufo_position += 1
         
+        # Ensure UFO stays within bounds
+        if ufo_position < 0:
+            ufo_position = 0
+        elif ufo_position > hw.display.WIDTH - 4:  # Width of UFO is 4 characters
+            ufo_position = hw.display.WIDTH - 4
+        
+        # Clear previous UFO position
+        hw.display.text('    ', ufo_position, hw.display.HEIGHT - 1)
+        
+        # Draw new UFO position
+        hw.display.text('<=>', ufo_position, hw.display.HEIGHT - 1)
+    
+    while True:
+        update_ufo()
+        utime.sleep(0.1)
