@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+a {
+    color: green;
+    text-decoration: underline;
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: square;
+}
